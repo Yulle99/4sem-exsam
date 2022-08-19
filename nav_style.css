@@ -7,7 +7,7 @@
     background-color: #f2f2f2;
   }
   
-  .topnav a {
+  .topnav .menu a {
     float: left;
     display: block;
     color: #333;
@@ -73,15 +73,18 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
   
-  logo{
+  .logo img{
       float:left;
-       margin:50;
-       width:50;
+       width:50px;
+          
   }
   
   .menu {
     float:right;
+    
     
     
   }
