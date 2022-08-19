@@ -1,37 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>smartwear </title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="container">
-    <nav>navbar
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="nav_style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="filter.css">
+    </head>
+    <body class="container">
+    
+    <nav class="topnav" id="myTopnav"><!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown-->
+        <a class="logo" href="Smartware.html" img="">logo</a>
+      <div class="menu">
+        <div class="dropdown">
+          <button class="dropbtn">Dame
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+    
+        <a href="#">Børn</a>
+    
+        <div class="dropdown">
+          <button class="dropbtn">Smykker
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+            <a href="#">Link 6</a>
+            <a href="#">Link 7</a>
+          </div>
+        </div> 
+    
+        <div class="dropdown">
+          <button class="dropbtn">Hvidvare
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 8</a>
+            <a href="#">Link 9</a>
+            <a href="#">Link 0</a>
+          </div>
+        </div>
+      
+        <a href="Ny_vare">Ny vare</a>
+    
+        <a href="#om_os">Om os</a>
+    
+        <a href="Heart">Heart</a>
+    
+        <a href="Cart">cart</a>
+    
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" 		onclick="myFunction()">&#9776;</a>
+    </div>
     </nav>
-
-    <div id="filter">filter
-
-    </div>
-
-    <div class="main">
-        <h1>Damer</h1>
-        <p class="mainp">brød krummer</p>
-        <div class="prudokt">
-            <div class="vare">
-                <img class="vareimg" src="img4.jpg" alt="">
-                <div class="vareinfo">
-                    <h4>vare navn</h4>
-                    <p class="pris">pris</p>
+        <div class="filter"><!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_dropdown-->
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#clients">Clients</a>
+            <a href="#contact">Contact</a>
+            <button class="dropdown-btn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <a href="#contact">Search</a>
+        </div>
+    <main><!--https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_fading-->
+        <div class="pbox">
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
                 </div>
-                <p><button>Add to Cart</button></p>
-            </div>            
-        </div>    
-            
-    </div>
+            </div>
 
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+       
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+       
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+       
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+     
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+    
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+   
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+    
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+       
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+       
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+     
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        
+            <div class="product">
+                <a href="#">
+                <img src="img1.jpg">
+                </a>
+                <div class="pbs">
+                    <h4>rød Sari</h4>
+                    <p>999 Kr,-</p>
+                </div>
+            </div>
+        </div>
+          
+          
+        
+        
+    </main>
     <footer>footer</footer>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    /*https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_fading*/
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 9000);    
+    }
+    </script>
 </body>
 </html>
